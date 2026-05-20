@@ -31,7 +31,7 @@
 **在服务器上复制执行**（**两行都要执行**；第一行必须完整，结尾是 **`/tmp/install.sh`**，不是 `/tmp/`）：
 
 ```bash
-curl -fsSL https://github.com/OCIworker/OCIworker/releases/download/installer-latest/install.sh -o /tmp/install.sh
+curl -fsSL https://github.com/oobuds/OCIworker/releases/download/installer-latest/install.sh -o /tmp/install.sh
 sudo bash /tmp/install.sh
 ```
 
@@ -98,7 +98,7 @@ ociworker uninstall
 
 ## 安装/更新失败时先看这些
 
-- **`curl` 报错、404、空文件**：能否访问 GitHub、Release 里是否仍有 [installer-latest](https://github.com/OCIworker/OCIworker/releases/tag/installer-latest) 附件。  
+- **`curl` 报错、404、空文件**：能否访问 GitHub、Release 里是否仍有 [installer-latest](https://github.com/oobuds/OCIworker/releases/tag/installer-latest) 附件。  
 - **`Permission denied`**：是否用了 `root` / `sudo`。  
 - **端口/防火墙**：向导里填的 **Web 端口**在安全组/防火墙中是否放行。  
 
