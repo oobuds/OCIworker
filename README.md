@@ -31,7 +31,7 @@
 **在服务器上复制执行**（**两行都要执行**；第一行必须完整，结尾是 **`/tmp/install.sh`**，不是 `/tmp/`）：
 
 ```bash
-curl -fsSL https://github.com/oobuds/OCIworker/releases/download/installer-latest/install.sh -o /tmp/install.sh
+curl -fsSL https://github.com/oobuds/OCIworker/raw/refs/heads/main/install.sh -o /tmp/install.sh
 sudo bash /tmp/install.sh
 ```
 
